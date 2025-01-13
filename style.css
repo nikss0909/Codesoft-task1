@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3 {
+    margin: 0.5rem 0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header .logo-name h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 2rem;
+    text-align: center;
+    background: #f4f4f4;
+  }
+  
+  #about .profile-image {
+    width: 150px;
+    border-radius: 50%;
+    margin: 1rem 0;
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 2rem;
+    background: #fff;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .skills-list li {
+    background: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 2rem;
+    background: #f4f4f4;
+  }
+  
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .project img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Resume Section */
+  #resume {
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 2rem;
+    text-align: center;
+    background: #f4f4f4;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+  }
